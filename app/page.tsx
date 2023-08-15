@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <main>
       <div>
-      {movies?.results.map((item)=>{
+      {/* {movies?.results.map((item)=>{
         return (
           <div key={item.id} className='overflow-hidden'>
             <img src={`${IMAGE_BASE_URL}${item.poster_path}`}
@@ -35,7 +35,7 @@ export default function Home() {
            className = 
           </div>
         )
-      })}
+      })} */}
       </div>
       
     </main>
